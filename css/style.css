@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: monospace;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+
+/* Login Page Code start */
+
+.container{
+	width: 1140px;
+	margin: 100px auto;
+}
+.login-box{
+	width: 50%;
+	margin: 50px auto;
+	padding: 80px;
+	background: #B0E0E6;
+	box-shadow: 1px 4px 10px #ccc;
+}
+.login-box .logo{
+	width: 100%;
+	text-align: center;
+}
+.login-box h1{
+	font-size: 42px;
+	line-height: 52px;
+	text-align: center;
+	text-transform: capitalize;
+}
+.main-from{
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+}
+.main-from .form-group{
+	width: 95%;
+	margin: 15px 0px;
+}
+.main-from .form-group label{
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+	display: block;
+}
+.main-from .form-group .form-control{
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.main-from .form-group .btn{
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding: 10px 50px;
+	color: #fff;
+	background: #000;
+	border: 2px solid #000;
+}
